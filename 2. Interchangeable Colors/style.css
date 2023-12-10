@@ -9,4 +9,47 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background: rgb(28, 28, 35);
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border: 2px solid white;
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
